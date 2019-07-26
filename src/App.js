@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div>
-      <LocationDropdown locations={provinces}/>
+      <LocationDropdown defaultLabel="bkk" locations={provinces}/>
     </div>
     // <div className="App">
     //   <header className="App-header">
